@@ -63,12 +63,12 @@ html{
 }
 
 body{
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 75%;
     padding: 2rem;
     border: 4px solid black;
     border-radius: 50px;
-    background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(136,136,136,0.6), black);
+    background-image: linear-gradient(to right, rgba(255,255,255,0.3), black);
 }
 
 ul.info-links li {
