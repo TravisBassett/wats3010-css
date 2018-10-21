@@ -11,27 +11,21 @@ header p {
 
 h1, h2, h3, h4, h5, h6 {
     color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    background: pink;
+    font-family: Arial, Helvetica, sans-serif;    
     
 }
 
 header {
-    background: green;
     margin-bottom: 3rem 1rem;
 }
 
 aside {
-    background: orange;
     width: 50%;
-    border: 1px solid black;
     padding: 1rem;
     max-width: 756px;
 }
 
 section {
-    background: yellow;
     clear: both;
 }
 
@@ -42,7 +36,7 @@ aside img {
     margin: 10px;
 }
 .content-footer {
-    background: blue;
+    
 }
 
 ul.poem {
@@ -51,12 +45,16 @@ ul.poem {
 }
 
 .page-footer {
-    background: red;
     border-top: 2px rgba(0,0,0, 0.6) solid;
     padding-top: 2px;
 }
 
 html{
     background-image: url(images/hiking-the-sand-dunes.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+body{
+    padding-left: 4rem;
 }
