@@ -1,6 +1,30 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    background: pink;
+    
+}
+
+header {
+    background: green;
+}
+
+aside {
+    background: orange;
+}
+
+section {
+    background: yellow;
+}
+
+.content-footer {
+    background: blue;
+}
+
+.page-footer {
+    background: red;
 }
