@@ -1,6 +1,14 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,20 +19,44 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background: green;
+    margin-bottom: 3rem 1rem;
 }
 
 aside {
     background: orange;
+    width: 50%;
+    border: 1px solid black;
+    padding: 1rem;
+    max-width: 756px;
 }
 
 section {
     background: yellow;
+    clear: both;
 }
 
+aside img {
+    width: 160px;
+    height: auto;
+    float: right;
+    margin: 10px;
+}
 .content-footer {
     background: blue;
 }
 
+ul.poem {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .page-footer {
     background: red;
+    border-top: 2px rgba(0,0,0, 0.6) solid;
+    padding-top: 2px;
+}
+
+html{
+    background-image: url(images/hiking-the-sand-dunes.jpg);
+    background-size: cover;
 }
